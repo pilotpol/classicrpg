@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="40" height="40" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Desert" tilewidth="32" tileheight="32" spacing="3" margin="2">
+  <image source="gfx/desert_tiled.png" width="281" height="211"/>
+  <tile id="0">
+   <properties>
+    <property name="walk" value="no"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="walk" value="no"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="walk" value="no"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="walk" value="no"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="walk" value="no"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="walk" value="no"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="walk" value="no"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="walk" value="no"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="walk" value="no"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="walk" value="no"/>
+   </properties>
+  </tile>
+  <tile id="27">
+   <properties>
+    <property name="walk" value="no"/>
+   </properties>
+  </tile>
+  <tile id="28">
+   <properties>
+    <property name="walk" value="no"/>
+   </properties>
+  </tile>
+  <tile id="30">
+   <properties>
+    <property name="walk" value="no"/>
+   </properties>
+  </tile>
+  <tile id="45">
+   <properties>
+    <property name="gateway" value="yes"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Ground" width="40" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2YfUvDMBCHbwpTEawvYJ2ytlpftum6ff9P55WmrB5JmsS8XKF/PHSBlD787rocLQCgCMgNkiG3gZ/jQiPxKxl4TSW/lkckR54YuKhYIOeDdagar5BnC17EfVfIdYQcXpE3C+qAfhuN3zuyQz4S+unyq8k6pd8nQ78j8aJ+P9D1/z6yH+05uh7Li/alDz/Ze7Ah+fW/x/xorr7y+yLr3sc2v9D1pZ6UraifKd8e/C4El9CdQ2cK2vNpabiXsv6HXwan+eIOuVfwAH9nEd1e1f0ufjmYzxcpZ6Wx3ovtV4F8ztF5xp7lKsPcfOA6m4WmEVeT/87h+VN7er4pJn6t01Hsjel3YOhH+5qbn0t9h/NFLL+DhZ9stuCUn6zWnP1i5uc6m83YUTFwmAo0K27fBk28Swmp/Wims9/sl4pfrpkZPgAZAAA=
+  </data>
+ </layer>
+ <objectgroup name="walkable" width="40" height="40">
+  <properties>
+   <property name="walk" value="no"/>
+  </properties>
+  <object name="wall" x="817" y="144" width="29" height="382">
+   <properties>
+    <property name="walk" value="no"/>
+   </properties>
+  </object>
+  <object x="464" y="496" width="355" height="30">
+   <properties>
+    <property name="walk" value="no"/>
+   </properties>
+  </object>
+  <object x="113" y="496" width="222" height="32">
+   <properties>
+    <property name="walk" value="no"/>
+   </properties>
+  </object>
+  <object x="934" y="132" width="17" height="19">
+   <properties>
+    <property name="walk" value="no"/>
+   </properties>
+  </object>
+  <object x="902" y="36" width="18" height="18"/>
+  <object name="walk" type="no" x="258" y="292" width="25" height="24"/>
+  <object x="1255" y="580" width="17" height="19">
+   <properties>
+    <property name="walk" value="no"/>
+   </properties>
+  </object>
+  <object x="1225" y="580" width="17" height="19">
+   <properties>
+    <property name="walk" value="no"/>
+   </properties>
+  </object>
+  <object x="1254" y="613" width="17" height="19">
+   <properties>
+    <property name="walk" value="no"/>
+   </properties>
+  </object>
+  <object x="774" y="674" width="18" height="25">
+   <properties>
+    <property name="walk" value="no"/>
+   </properties>
+  </object>
+  <object x="1161" y="715" width="14" height="15">
+   <properties>
+    <property name="walk" value="no"/>
+   </properties>
+  </object>
+  <object x="1161" y="747" width="14" height="15">
+   <properties>
+    <property name="walk" value="no"/>
+   </properties>
+  </object>
+  <object x="1161" y="781" width="14" height="15">
+   <properties>
+    <property name="walk" value="no"/>
+   </properties>
+  </object>
+  <object x="1160" y="996" width="17" height="19">
+   <properties>
+    <property name="walk" value="no"/>
+   </properties>
+  </object>
+  <object x="1255" y="875" width="14" height="15">
+   <properties>
+    <property name="walk" value="no"/>
+   </properties>
+  </object>
+  <object x="708" y="773" width="22" height="23">
+   <properties>
+    <property name="walk" value="no"/>
+   </properties>
+  </object>
+  <object x="3" y="1115" width="163" height="161"/>
+ </objectgroup>
+ <objectgroup name="player" width="40" height="40">
+  <properties>
+   <property name="player" value="start"/>
+  </properties>
+  <object name="origin" x="386" y="580" width="27" height="27"/>
+ </objectgroup>
+ <objectgroup name="upc" width="40" height="40">
+  <properties>
+   <property name="upc" value="upc"/>
+  </properties>
+  <object name="man1" x="1103" y="301">
+   <properties>
+    <property name="image" value="hero"/>
+   </properties>
+  </object>
+  <object name="man2" x="656" y="658">
+   <properties>
+    <property name="image" value="hero"/>
+   </properties>
+  </object>
+  <object name="man3" x="1016" y="496">
+   <properties>
+    <property name="image" value="hero"/>
+   </properties>
+  </object>
+  <object name="man3" x="511" y="665">
+   <properties>
+    <property name="image" value="hero"/>
+   </properties>
+  </object>
+  <object name="man3" x="381" y="307">
+   <properties>
+    <property name="image" value="hero"/>
+   </properties>
+  </object>
+  <object name="man3" x="281" y="651">
+   <properties>
+    <property name="image" value="hero"/>
+   </properties>
+  </object>
+  <object name="man3" x="403" y="757">
+   <properties>
+    <property name="image" value="hero"/>
+   </properties>
+  </object>
+  <object name="man3" x="1059" y="785">
+   <properties>
+    <property name="image" value="hero"/>
+    <property name="talk" value="จะแต่งงานกับผมมั้ย?"/>
+   </properties>
+  </object>
+  <object name="man3" x="469" y="962">
+   <properties>
+    <property name="image" value="hero"/>
+   </properties>
+  </object>
+  <object name="man3" x="761" y="1007">
+   <properties>
+    <property name="image" value="hero"/>
+   </properties>
+  </object>
+  <object name="man3" x="554" y="1120">
+   <properties>
+    <property name="image" value="hero"/>
+   </properties>
+  </object>
+  <object name="man3" x="899" y="1130">
+   <properties>
+    <property name="image" value="hero"/>
+   </properties>
+  </object>
+  <object name="man3" x="159" y="914">
+   <properties>
+    <property name="image" value="hero"/>
+   </properties>
+  </object>
+  <object name="man3" x="367" y="60">
+   <properties>
+    <property name="image" value="hero"/>
+   </properties>
+  </object>
+  <object name="man3" x="642" y="132">
+   <properties>
+    <property name="image" value="hero"/>
+   </properties>
+  </object>
+  <object name="man3" x="123" y="127">
+   <properties>
+    <property name="image" value="hero"/>
+   </properties>
+  </object>
+  <object name="man3" x="1024" y="259">
+   <properties>
+    <property name="image" value="hero"/>
+   </properties>
+  </object>
+  <object name="man3" x="1091" y="334">
+   <properties>
+    <property name="image" value="hero"/>
+    <property name="talk" value="Will you marry me?"/>
+   </properties>
+  </object>
+  <object name="man3" x="1103" y="363">
+   <properties>
+    <property name="image" value="hero"/>
+   </properties>
+  </object>
+  <object name="man3" x="1106" y="395">
+   <properties>
+    <property name="image" value="hero"/>
+   </properties>
+  </object>
+  <object name="man3" x="1106" y="426">
+   <properties>
+    <property name="image" value="hero"/>
+   </properties>
+  </object>
+  <object name="man3" x="1107" y="458">
+   <properties>
+    <property name="image" value="hero"/>
+   </properties>
+  </object>
+  <object name="man3" x="1016" y="519">
+   <properties>
+    <property name="image" value="hero"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
